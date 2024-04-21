@@ -1,0 +1,215 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    background: linear-gradient(to right, #d7c66f, #FFB6C1); /* Linear gradient background */
+}
+
+.navbar {
+    background-color: #fb6767; /* Navbar background color */
+    padding: 0px; /* Padding around the navbar */
+    height:40px;
+    width:100%;
+}
+
+.navbar nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    flex-grow: 1; /* Take up remaining space */
+    margin-left: 40px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-weight: 600;
+    margin-left: 50px;
+    letter-spacing: 2px;
+}
+
+.menu-bar {
+    margin-left: 30px; /* Apply the same margin as nav-links */
+    margin-right: 150px;
+}
+
+
+/* Styling for the menu button */
+.menubtn{
+    height: 40px;
+    width:40px;
+    padding: 10px;
+    
+}
+
+/* Media query for responsiveness */
+@media only screen and (max-width: 768px) {
+    .nav-links {
+        display: none; /* Hide nav links for smaller screens */
+        flex-direction: column; /* Display links vertically */
+        background-color: #333; /* Background color for the collapsed menu */
+        position: absolute;
+        top: 50px;
+        left: 0;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .nav-links a {
+        padding: 10px 0;
+        border-bottom: 1px solid white;
+    }
+
+    .menubtn {
+        display: block; 
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+.main-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center content horizontally */
+    font-family: Arial, sans-serif;
+    
+}
+
+.details {
+    flex: 1; /* Take up half of the space */
+    padding: 20px;
+    color: white; /* Text color */
+    margin-top: 100px;
+    min-width: 300px;
+}
+
+.side-img {
+    flex: 1; /* Take up half of the space */
+    overflow: hidden; /* Hide overflow */
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.side-img img {
+    max-width: 100%; /* Ensure the image fills its container */
+    max-height: 100%; /* Ensure the image fills its container */
+    height: 100%;
+}
+
+.details h1{
+    color: black;
+    font-weight: 600;
+    font-size: 30pt;
+    margin: 10px;
+    letter-spacing: 5px;
+}
+
+.details p{
+    color: black;
+    margin: 40px 10px;
+}
+
+.click-me{
+    background-color: #fb6767;
+    color: black;
+    border:none;
+    width: 40%;
+    height: 50px;
+    margin: 10px;
+}
+
+/* Orders section styling */
+.orders {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center content horizontally */
+    align-items: center;
+    height: auto;
+    font-family: Arial, sans-serif;
+}
+
+.gallary {
+    display: flex;
+    width: 50%;
+    margin: 20px;
+    min-width: 400px;
+    justify-content: center;
+
+}
+
+.col1 img {
+    
+    height: 200px;
+    margin: 5px;
+    min-width: 200px;
+}
+
+.col1{
+    display: flex;
+    flex-direction: column;
+}
+
+.col2 img {
+    
+    height: 400px;
+    margin-left: 5px;
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
+    min-width: 200px;
+}
+
+.side-card {
+    flex: 1;
+    padding: 20px;
+    width: 50%;
+    margin: 20px;
+    min-width: 400px;
+}
+
+.card {
+    padding: 20px;
+    background-color: #fb6767;
+    width: 70%;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.card h1 {
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+}
+.inside {
+    display: flex;
+    align-items: center;
+}
+.card .btn {
+    margin-top: 10px;
+    border: none;
+    background:none;
+    font-size: 20pt;
+}
+.card img{
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
