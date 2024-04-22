@@ -13,7 +13,7 @@ body {
 .navbar {
     background-color: #fb6767; /* Navbar background color */
     padding: 0px; /* Padding around the navbar */
-    height:40px;
+    height:45px;
     width:100%;
 }
 
@@ -80,6 +80,11 @@ body {
         width: 40px;
         height: 40px;
     }
+    .side-card {
+        display:flex;
+        justify-content:center;
+    }
+
 }
 
 .main-section {
@@ -94,9 +99,7 @@ body {
     flex: 1; /* Take up half of the space */
     color: white; /* Text color */
     margin-top: 100px;
-    min-width: 300px;
-    margin-left: 50px;
-
+    min-width: 400px;
 }
 
 .side-img {
@@ -121,13 +124,15 @@ body {
     font-size: 30pt;
     margin: 10px;
     letter-spacing: 5px;
+    padding-left:40px;
+    
 }
 
 .details p{
     color: black;
     margin: 40px 10px  ;
     padding:10px 100px 10px 0px;
-
+    padding-left:40px;
 }
 
 .click-me{
@@ -136,7 +141,8 @@ body {
     border:none;
     width: 40%;
     height: 50px;
-    margin: 10px;
+    margin: 50px;
+    
 }
 
 /* Orders section styling */
@@ -147,7 +153,8 @@ body {
     align-items: center;
     height: auto;
     font-family: Arial, sans-serif;
-    margin-top: 100px;
+    margin-top:50px;
+    margin-bottom: 50px;
 }
 
 .gallary {
@@ -156,14 +163,14 @@ body {
     /* margin: 20px; */
     min-width: 400px;
     justify-content: center;
-
+    flex-wrap:wrap;
 
 }
 
 .col1 img {
-    
+    width:250px;
     height: 200px;
-    margin: 5px;
+    padding: 5px;
     min-width: 200px;
 }
 
@@ -173,11 +180,9 @@ body {
 }
 
 .col2 img {
-    
+    width:250px;
     height: 400px;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-bottom: 7.5px;
+    padding:5px;
     min-width: 200px;
 }
 
