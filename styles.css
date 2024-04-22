@@ -92,10 +92,11 @@ body {
 
 .details {
     flex: 1; /* Take up half of the space */
-    padding: 20px;
     color: white; /* Text color */
     margin-top: 100px;
     min-width: 300px;
+    margin-left: 50px;
+
 }
 
 .side-img {
@@ -124,12 +125,14 @@ body {
 
 .details p{
     color: black;
-    margin: 40px 10px;
+    margin: 40px 10px  ;
+    padding:10px 100px 10px 0px;
+
 }
 
 .click-me{
     background-color: #fb6767;
-    color: black;
+    color: whitesmoke;
     border:none;
     width: 40%;
     height: 50px;
@@ -144,14 +147,16 @@ body {
     align-items: center;
     height: auto;
     font-family: Arial, sans-serif;
+    margin-top: 100px;
 }
 
 .gallary {
     display: flex;
     width: 50%;
-    margin: 20px;
+    /* margin: 20px; */
     min-width: 400px;
     justify-content: center;
+
 
 }
 
@@ -170,24 +175,23 @@ body {
 .col2 img {
     
     height: 400px;
-    margin-left: 5px;
-    margin-top: 7.5px;
+    margin-left: 20px;
+    margin-top: 10px;
     margin-bottom: 7.5px;
     min-width: 200px;
 }
 
 .side-card {
-    flex: 1;
-    padding: 20px;
     width: 50%;
-    margin: 20px;
     min-width: 400px;
 }
 
 .card {
+    margin-top: 40px;
     padding: 20px;
     background-color: #fb6767;
     width: 70%;
+
 }
 
 .card h2 {
